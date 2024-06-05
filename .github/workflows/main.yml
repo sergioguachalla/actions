@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3  # Checkout the repository code
-      - name: Use Node.js 16
+      - name: Use Node.js 20
         uses: actions/setup-node@v3
         with:
-          node-version: 16  # Adjust based on your project's requirements
+          node-version: 20  # Adjust based on your project's requirements
       - name: Install dependencies (adjust for your project)
         run: npm ci  # Or yarn install, depending on your package manager
       - name: Run tests
