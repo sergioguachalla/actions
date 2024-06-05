@@ -18,4 +18,4 @@ jobs:
         run: npm install  # Or yarn install, depending on your package manager
       - name: Run tests
         run: npm test  # Or yarn test, depending on your package manager
-        working-directory: ./actions/app/tests  # Specify the tests directory
+        working-directory: /actions/app/tests  # Specify the tests directory
