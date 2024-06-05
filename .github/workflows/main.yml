@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 20  # Adjust based on your project's requirements
       - name: Install dependencies (adjust for your project)
-        run: npm ci  # Or yarn install, depending on your package manager
+        run: npm install  # Or yarn install, depending on your package manager
       - name: Run tests
         run: npm test  # Or yarn test, depending on your package manager
-        working-directory: tests  # Specify the tests directory
+        working-directory: ./actions/app/tests  # Specify the tests directory
