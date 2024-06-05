@@ -16,5 +16,6 @@ jobs:
           node-version: 20  # Adjust based on your project's requirements
       - name: Install dependencies (adjust for your project)
         run: npm install  # Or yarn install, depending on your package manager
-      - name: ls
-        run: ls
+      - name: Run tests
+        run: npm test
+      
